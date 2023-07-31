@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-commerce de ropa</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="menu container">
+				<a href="#" class="logo">Logo</a>
+				<input type="checkbox" name="menu" id="menu" />
+				<label for="menu">
+					<img src="img/menu.png" class="menu-icono" alt="Menu" />
+				</label>
+				<nav class="navbar">
+					<ul>
+						<li>
+							<a href="#">Inicio</a>
+						</li>
+						<li>
+							<a href="#">Servicio</a>
+						</li>
+						<li>
+							<a href="#">Productos</a>
+						</li>
+						<li>
+							<a href="#">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+				<div>
+					<ul>
+						<li class="submenu">
+							<img
+								src="img/car.svg"
+								alt="Imagen de un carro de compras"
+								id="img-carrito"
+							/>
+							<div id="carrito">
+								<table id="lista-carrito">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Nombre</th>
+											<th>Precio</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody></tbody>
+								</table>
+								<a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-content container">
+				<div class="header-img">
+					<img src="img/right.png" alt="Imagen de producto" />
+				</div>
+				<div class="header-txt">
+					<h2>Ofertas especiales</h2>
+					<p>Estrena las mejores prendas</p>
+					<a href="#" class="btn-1">Información</a>
+				</div>
+			</div>
+		</header>
+		<section class="ofert container">
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<img src="img/f1.png" alt="Imagen de oferta de producto 1" />
+				</div>
+
+				<div class="ofert-txt">
+					<h3>Producto 1</h3>
+					<a href="#" class="btn-2">Información</a>
+				</div>
+			</div>
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<img src="img/f2.png" alt="Imagen de oferta de producto 2" />
+				</div>
+
+				<div class="ofert-txt">
+					<h3>Producto 2</h3>
+					<a href="#" class="btn-2">Información</a>
+				</div>
+			</div>
+			<div class="ofert-1">
+				<div class="ofert-img">
+					<img src="img/f3.png" alt="Imagen de oferta de producto 3" />
+				</div>
+
+				<div class="ofert-txt">
+					<h3>Producto 3</h3>
+					<a href="#" class="btn-2">Información</a>
+				</div>
+			</div>
+		</section>
+		<main class="products container" id="lista-1">
+			<h2>Productos</h2>
+			<div class="product-content">
+				<div class="product">
+					<img src="img/1.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+				<div class="product">
+					<img src="img/2.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+					</div>
+				</div>
+				<div class="product">
+					<img src="img/3.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+					</div>
+				</div>
+				<div class="product">
+					<img src="img/4.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+					</div>
+				</div>
+				<div class="product">
+					<img src="img/5.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+					</div>
+				</div>
+				<div class="product">
+					<img src="img/6.png" alt="Imagen del producto" />
+					<div class="product-txt">
+						<h3>Elisyum</h3>
+						<p>Calidad Premium</p>
+						<p class="precio">$500</p>
+						<a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<section class="icons container">
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i1.svg" alt="Icono del producto" />
+				</div>
+				<div class="icon-txt">
+					<h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure
+						animi repellat eum delectus doloremque reiciendis, reprehenderit autem?
+						Deleniti fuga dolores mollitia consequuntur atque dicta tempora asperiores
+						fugiat obcaecati ut.
+					</p>
+				</div>
+			</div>
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i2.svg" alt="Icono del producto" />
+				</div>
+				<div class="icon-txt">
+					<h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure
+						animi repellat eum delectus doloremque reiciendis, reprehenderit autem?
+						Deleniti fuga dolores mollitia consequuntur atque dicta tempora asperiores
+						fugiat obcaecati ut.
+					</p>
+				</div>
+			</div>
+			<div class="icon-1">
+				<div class="icon-img">
+					<img src="img/i3.svg" alt="Icono del producto" />
+				</div>
+				<div class="icon-txt">
+					<h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure
+						animi repellat eum delectus doloremque reiciendis, reprehenderit autem?
+						Deleniti fuga dolores mollitia consequuntur atque dicta tempora asperiores
+						fugiat obcaecati ut.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="blog container">
+			<div class="blog-1">
+				<img src="img/b1.jpg" alt="Imagenes del blog" />
+				<h3>Blog 1</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+				</p>
+			</div>
+			<div class="blog-1">
+				<img src="img/b2.jpg" alt="Imagenes del blog" />
+				<h3>Blog 2</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+				</p>
+			</div>
+			<div class="blog-1">
+				<img src="img/b3.jpg" alt="Imagenes del blog" />
+				<h3>Blog 3</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+				</p>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer-content container">
+				<div class="link">
+					<h3>Lorem ipsum</h3>
+					<ul>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link">
+					<h3>Lorem ipsum</h3>
+					<ul>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link">
+					<h3>Lorem ipsum</h3>
+					<ul>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link">
+					<h3>Lorem ipsum</h3>
+					<ul>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
